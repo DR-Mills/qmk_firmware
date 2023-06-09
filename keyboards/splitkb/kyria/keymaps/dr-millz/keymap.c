@@ -112,7 +112,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_NAV] = LAYOUT(
      QWERTY, KC_AGIN, KC_COPY, KC_PSTE, KC_CUT, KC_UNDO,                                   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
      DVORAK, KC_INS, KC_LEFT, KC_UP, KC_RGHT, KC_HOME,                                     KC_NO, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI, KC_NO, 
-     COLEMAK, KC_NO, KC_PGDN, KC_DOWN, KC_PGUP, KC_END, KC_NO, KC_NO,      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
+     COLEMAK, KC_DEL, KC_PGDN, KC_DOWN, KC_PGUP, KC_END, KC_NO, KC_NO,      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
                           KC_TAB, KC_LGUI, KC_ENT, KC_SPC, KC_BSPC,      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
     ),
 
@@ -124,7 +124,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                                    KC_7, KC_8, KC_9, KC_MINS, KC_LPRN, KC_RPRN,
      KC_NO, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, KC_NO,                            KC_4, KC_5, KC_6, KC_PPLS, KC_LT, KC_GT,
      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,        KC_NO, KC_NO, KC_1, KC_2, KC_3, KC_PENT, KC_LBRC, KC_RBRC,
-                     KC_TAB, KC_LGUI, KC_ENT, KC_SPC, KC_NO,        KC_PEQL, KC_PDOT, KC_0, KC_PAST, KC_PSLS
+                     KC_TAB, KC_LGUI, KC_ENT, KC_SPC, KC_NO,        KC_EQL, KC_PDOT, KC_0, KC_PAST, KC_PSLS
     ),
 
 /*
