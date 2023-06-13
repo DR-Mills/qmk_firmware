@@ -1,3 +1,4 @@
+
 /* Copyright 2019 Thomas Baart <thomas@splitkb.com>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -124,7 +125,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                                    KC_7, KC_8, KC_9, KC_MINS, KC_LPRN, KC_RPRN,
      KC_NO, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, KC_NO,                            KC_4, KC_5, KC_6, KC_PPLS, KC_LT, KC_GT,
      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,        KC_NO, KC_NO, KC_1, KC_2, KC_3, KC_PENT, KC_LBRC, KC_RBRC,
-                     KC_TAB, KC_LGUI, KC_ENT, KC_SPC, KC_NO,        KC_EQL, KC_PDOT, KC_0, KC_PAST, KC_PSLS
+                     KC_TAB, KC_LGUI, KC_ENT, KC_SPC, KC_NO,        KC_EQL, KC_0, KC_PDOT, KC_PAST, KC_PSLS
     ),
 
 /*
@@ -134,7 +135,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_FUNC] = LAYOUT(
      KC_ESC, KC_F9, KC_F10, KC_F11, KC_F12, KC_PSCR,                            KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
      KC_LNUM, KC_F5, KC_F6, KC_F7, KC_F8, KC_SCRL,                              KC_NO, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI, KC_NO, 
-     KC_LSCR, KC_F1, KC_F2, KC_F3, KC_F4, KC_APP, KC_NO, KC_NO,        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
+     KC_LSCR, KC_F1, KC_F2, KC_F3, KC_F4, KC_APP, KC_NO, KC_NO,        KC_NO, KC_NO, KC_NO, DT_PRNT, DT_UP, DT_DOWN, KC_NO, KC_NO, 
                    KC_PAUS, KC_MPLY, KC_VOLD, KC_VOLU, KC_MUTE,        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
     ),
 
